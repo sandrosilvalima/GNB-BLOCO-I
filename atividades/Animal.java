@@ -1,13 +1,12 @@
 package atividades;
-public class Animal {
+ abstract class Animal {
+
+	public abstract String mostrarSom();
 	
-		String nome;
-		int idade;
+	
+	
+		
+	
+}
 		
 		
-		public void emitirSom()
-		{
-			System.out.println("\nPOCOTÓ POCOTÓ POCOTÓ");
-		}
-	}
-	

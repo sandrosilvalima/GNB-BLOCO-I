@@ -1,14 +1,12 @@
 package atividades;
-public class cachorro extends Animal {
+public abstract class cachorro extends Animal {
+	
+	public String mostrarSom(){
+	    return "AUF AUF AUFFF";
+	
+}
+}
 
-	public void correr()
-		{
-			System.out.println("\nCACHORRO CORRENDO NO PARQUE");
-		}
-		
-		public void emitirSom()
-		{
-			System.out.println("AUFF AUFF AUFF!");
-		}
-	}
+
+
 	
